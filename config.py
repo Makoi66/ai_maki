@@ -1,17 +1,17 @@
 from google.generativeai.types import HarmCategory, HarmBlockThreshold
 
 
-tele_token = '7032308631:AAHT2LCpKNJ4ckInsmHoFTOzULY5HB5FnzE'
+tele_token = ''
 
 
 models_tokens = {
-    'gemini': 'AIzaSyCc_9tNmMDtL_4IDJ0H6hDWSJ7F4e26KLk',
+    'gemini': '',
 }
 
 
 models = [
-    'models/gemini-2.0-flash',
-    'models/gemini-2.0-pro-exp'
+    'models/gemini-2.5-flash-preview-05-20',
+    'jopa/ne_najimai'
 ]
 
 gemini_settings = {

@@ -10,9 +10,9 @@ global chat
 global history
 history = {}
 
-with open('//bin//api_ai//whitelist.txt', 'r') as f:
-    for e in f:
-        history[e.strip()] = []
+# with open('//bin//ai_maki//whitelist.txt', 'r') as f:
+#     for e in f:
+#         history[e.strip()] = []
 
 def clear(person):
     history[person] = []

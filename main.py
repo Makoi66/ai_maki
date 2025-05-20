@@ -11,7 +11,7 @@ from aiogram.types import Message, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiogram.enums import ParseMode
 
-path = '//bin//api_ai//'
+path = '//bin//ai_maki//'
 
 with open(f'{path}admin.txt', 'r') as f:
     admin = f.readlines()
